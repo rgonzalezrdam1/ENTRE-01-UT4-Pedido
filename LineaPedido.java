@@ -1,4 +1,3 @@
-
 /**
  *  Describe una línea de un pedido
  *  En una línea de pedido se incluye un producto
@@ -10,7 +9,6 @@ public class LineaPedido
     private Producto producto;
     private int cantidad;
      
-
     /**
      * Constructor  
      */

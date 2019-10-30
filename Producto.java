@@ -1,5 +1,4 @@
 /**
- *  
  * Modela un producto. Todo producto tiene un nombre y un  precio unidad 
  * @Rubén González Rivera
  */
