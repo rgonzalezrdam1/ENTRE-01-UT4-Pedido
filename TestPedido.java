@@ -6,7 +6,7 @@
 public class TestPedido
 {
     private Pedido pedido1; 
-    private Pedido pedido2; 
+    private Pedido pedido2;
 
     /**
      * Constructor  
