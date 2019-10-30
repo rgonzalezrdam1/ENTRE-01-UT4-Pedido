@@ -2,6 +2,7 @@
 
 /**
  *  Representa a un cliente que hace un pedido 
+ *  @Rubén González Rivera
  */
 public class Cliente
 {
@@ -13,7 +14,7 @@ public class Cliente
     /**
      * Constructor  
      */
-    public Cliente(String nombre, String direccion, String ciudad, String provincia)    {
+    public Cliente(String nombre, String direccion, String ciudad, String provincia){
         this.nombre = nombre;
         this.direccion = direccion;
         this.ciudad = ciudad;
@@ -51,16 +52,19 @@ public class Cliente
     /**
      * representación textual del cliente
      */
-    public String toString() {
-         
-          
+    public String toString(){
+        String str = "";
+        str = String.format("%10s %-10s \n", "NOMBRE:",this.getNombre());
+        str += String.format("%10s %-10s \n", "DIRECCION:",this.getDireccion());
+        str += String.format("%10s %-10s \n", "CIUDAD:",this.getCiudad());
+        str += String.format("%10s %-10s \n", "PROVINCIA:",this.getProvincia());
+        return str;
     }
     
     /**
      * 
      */
-    public void print() {
+    public void print(){
         System.out.println(this.toString());
     }
-
 }
